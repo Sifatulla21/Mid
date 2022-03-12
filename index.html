@@ -20,7 +20,7 @@
     </header>
     <section>
         <div class="container form-handel">
-            <form name="forms" action="submission-successful" method="post">
+            <form action="successful.html" method="POST">
                 <label for="username">User name:</label><br>
                 <input type="text" id="username" name="username"><br><br>
                 <label for="password">Password:</label><br>
@@ -29,14 +29,11 @@
                 <input type="email" id="email" name="email"><br><br>
                 <label for="contact">Contact No:</label><br>
                 <input type="number" id="contact" name="contact"><br><br>
-                <div>
-                    <button type="submit" id="submit-button">Submit</button>
-                    <button type="reset" id="cancel-button">Cancel</button>
-                </div>
-            </form>
+                <button onclick="return validateForm()" type="submit" id="submit-button">Submit</button>
+                <button type="reset" id="cancel-button">Cancel</button>
+            </form>      
         </div>
     </section>
     <script src="form.js"></script>
 </body>
 </html>
-<a ></a>
