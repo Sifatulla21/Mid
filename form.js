@@ -41,6 +41,7 @@ function validateForm(){
     }
     if(numeric==0 || upper==0 || lower==0){
         alert("Password Must Contain One Neumeric One UpperCase And One LowerCase Value.")
+        return false;
     }
     else if (email == "") { 
         alert("Email must be filled out"); 
@@ -55,6 +56,6 @@ function validateForm(){
         return false; 
     } 
     else{
-        return true;
+        return true
     }
 };
